@@ -312,4 +312,4 @@ Feel free to submit issues and enhancement requests!
 
 **Built with ❤️ for cybersecurity professionals**
 
-*This portfolio template is designed to help you showcase your cybersecurity skills and experience in a professional, engaging way that appeals to potential employers.* 
+*This portfolio template is designed to help you showcase your cybersecurity skills and experience in a professional, engaging way that appeals to potential employers.*
