@@ -1,36 +1,39 @@
-# Cybersecurity Professional Portfolio
+# Harvey Wrigg - Software Developer Portfolio
 
-A modern, responsive portfolio website designed specifically for cybersecurity professionals seeking employment opportunities. This portfolio showcases technical skills, projects, and experience in an engaging, professional format.
+A modern, responsive portfolio website showcasing software development skills and experience. Built with clean, accessible code and designed to demonstrate professional capabilities to potential employers.
 
-## 🛡️ Features
+## Overview
 
-- **Modern Design**: Dark theme with cybersecurity-inspired color scheme
-- **Responsive Layout**: Optimized for all devices and screen sizes
-- **Interactive Elements**: Smooth animations, hover effects, and dynamic content
+This portfolio website demonstrates my ability to create accessible, modern web applications with clean code and exceptional user experiences. The site itself serves as a practical example of my development capabilities, featuring responsive design, smooth animations, and professional presentation.
+
+## Features
+
+- **Modern Design**: Clean, professional layout with cybersecurity-inspired color scheme
+- **Responsive Layout**: Fully optimized for desktop, tablet, and mobile devices
+- **Interactive Elements**: Smooth scrolling navigation, hover effects, and dynamic content
 - **Professional Sections**: 
   - Hero section with animated introduction
-  - About section with personal information
-  - Skills showcase with progress bars
+  - About section with personal information and statistics
+  - Skills showcase with visual progress indicators
   - Project portfolio with detailed descriptions
   - Experience timeline
   - Contact form with validation
-- **SEO Optimized**: Clean HTML structure for better search engine visibility
-- **Fast Loading**: Optimized assets and efficient code
+- **Performance Optimized**: Fast loading times and efficient code structure
+- **Accessible Design**: Clean HTML structure for better user experience
 
-## 🚀 Quick Start
+## Technical Stack
 
-1. **Clone or Download** the project files
-2. **Customize Content**: Update the HTML with your personal information
-3. **Deploy**: Upload to your web hosting service
+- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
+- **Styling**: Custom CSS with CSS Grid and Flexbox
+- **Fonts**: Inter font family from Google Fonts
+- **Icons**: Font Awesome for consistent iconography
+- **Animations**: CSS transitions and JavaScript-powered effects
 
-### Local Development
+## Local Development
 
 To run the website locally:
 
 ```bash
-# Simply open index.html in your browser
-# Or use a local server for better development experience
-
 # Using Python 3
 python -m http.server 8000
 
@@ -43,74 +46,70 @@ php -S localhost:8000
 
 Then visit `http://localhost:8000` in your browser.
 
-## 📝 Customization Guide
+## Customization Guide
 
 ### Personal Information
 
 Update the following sections in `index.html`:
 
-#### 1. Navigation & Header
+#### Navigation & Header
 ```html
-<!-- Update your name in the logo -->
 <div class="nav-logo">
     <i class="fas fa-shield-alt"></i>
-    <span>Your Name</span> <!-- Change this -->
+    <span>Your Name</span>
 </div>
 ```
 
-#### 2. Hero Section
+#### Hero Section
 ```html
 <h1 class="hero-title">
-    Cybersecurity Professional <!-- Customize your title -->
+    Software Developer
 </h1>
 <p class="hero-subtitle">
-    Protecting digital assets through advanced security solutions and ethical hacking expertise <!-- Update your tagline -->
+    Creating accessible, modern web applications with clean code and exceptional user experiences.
 </p>
 ```
 
-#### 3. About Section
+#### About Section
 ```html
-<!-- Update your personal description -->
 <p>
-    I am a passionate cybersecurity graduate with a strong foundation in information security, 
-    network defense, and ethical hacking...
+    I am a BSc (Hons) Cyber Security graduate with a passion for software development 
+    and creating exceptional digital experiences. My technical background combines 
+    cybersecurity knowledge with practical programming skills.
 </p>
-
-<!-- Update your statistics -->
-<div class="about-stats">
-    <div class="stat">
-        <h3>50+</h3> <!-- Update with your actual numbers -->
-        <p>Security Projects</p>
-    </div>
-    <!-- ... -->
-</div>
 ```
 
-#### 4. Profile Card
+#### Profile Card
 ```html
 <div class="profile-info">
-    <h3>Your Name</h3> <!-- Update your name -->
-    <p>Cybersecurity Graduate</p> <!-- Update your title -->
+    <h3>Your Name</h3>
+    <p>Software Developer</p>
     <div class="profile-links">
-        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a> <!-- Add your LinkedIn -->
-        <a href="#" class="social-link"><i class="fab fa-github"></i></a> <!-- Add your GitHub -->
-        <a href="#" class="social-link"><i class="fas fa-envelope"></i></a> <!-- Add your email -->
+        <a href="mailto:your.email@example.com" class="social-link">
+            <i class="fas fa-envelope"></i>
+        </a>
+        <a href="tel:+1234567890" class="social-link">
+            <i class="fas fa-phone"></i>
+        </a>
+        <a href="#" class="social-link">
+            <i class="fab fa-linkedin"></i>
+        </a>
     </div>
 </div>
 ```
 
 ### Skills Section
 
-Update your technical skills in the skills section:
+Update your technical skills with appropriate percentages:
 
 ```html
 <div class="skill-category">
-    <h3><i class="fas fa-bug"></i> Penetration Testing</h3>
+    <h3><i class="fas fa-code"></i> Web Development</h3>
     <div class="skill-items">
         <div class="skill-item">
-            <span>Metasploit Framework</span>
+            <span>HTML5 & CSS3</span>
             <div class="skill-bar">
-                <div class="skill-progress" style="width: 90%"></div> <!-- Adjust percentage -->
+                <div class="skill-progress" style="width: 95%"></div>
             </div>
         </div>
         <!-- Add more skills -->
@@ -120,42 +119,45 @@ Update your technical skills in the skills section:
 
 ### Projects Section
 
-Replace the sample projects with your actual work:
+Replace with your actual projects:
 
 ```html
 <div class="project-card">
     <div class="project-header">
-        <i class="fas fa-lock"></i>
-        <h3>Your Project Name</h3> <!-- Update project name -->
+        <i class="fas fa-palette"></i>
+        <h3>Project Name</h3>
     </div>
     <p>
-        Your project description here... <!-- Update with your project details -->
+        Project description highlighting your technical skills and achievements.
     </p>
     <div class="project-tech">
-        <span class="tech-tag">Python</span> <!-- Update with technologies used -->
-        <span class="tech-tag">Nmap</span>
+        <span class="tech-tag">Technology Used</span>
     </div>
     <div class="project-links">
-        <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a> <!-- Add your GitHub link -->
-        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a> <!-- Add demo link -->
+        <a href="#" class="project-link">
+            <i class="fab fa-github"></i> Code
+        </a>
+        <a href="#" class="project-link">
+            <i class="fas fa-external-link-alt"></i> Live Demo
+        </a>
     </div>
 </div>
 ```
 
 ### Experience Section
 
-Update your work experience and education:
+Update with your work experience and education:
 
 ```html
 <div class="timeline-item">
     <div class="timeline-marker"></div>
     <div class="timeline-content">
-        <h3>Your Job Title</h3> <!-- Update job title -->
-        <p class="timeline-company">Company Name</p> <!-- Update company -->
-        <p class="timeline-date">2020 - 2024</p> <!-- Update dates -->
+        <h3>Job Title</h3>
+        <p class="timeline-company">Company Name</p>
+        <p class="timeline-date">2020 - 2024</p>
         <ul>
-            <li>Your responsibility or achievement</li> <!-- Update with your experience -->
-            <!-- Add more bullet points -->
+            <li>Key responsibility or achievement</li>
+            <li>Another significant contribution</li>
         </ul>
     </div>
 </div>
@@ -169,66 +171,57 @@ Update your contact details:
 <div class="contact-details">
     <div class="contact-item">
         <i class="fas fa-envelope"></i>
-        <span>your.email@example.com</span> <!-- Update your email -->
+        <span>your.email@example.com</span>
     </div>
     <div class="contact-item">
         <i class="fas fa-phone"></i>
-        <span>+1 (555) 123-4567</span> <!-- Update your phone -->
+        <span>+44 1234 567890</span>
     </div>
     <div class="contact-item">
         <i class="fas fa-map-marker-alt"></i>
-        <span>Your Location</span> <!-- Update your location -->
+        <span>Your Location</span>
     </div>
 </div>
 ```
 
-## 🎨 Styling Customization
+## Styling Customization
 
 ### Color Scheme
 
-The website uses CSS custom properties for easy color customization. Update the colors in `styles.css`:
+The website uses CSS custom properties for easy customization. Update colors in `styles.css`:
 
 ```css
 :root {
-    --primary-color: #00ff88;      /* Main accent color */
-    --secondary-color: #0066ff;    /* Secondary accent */
-    --accent-color: #ff0066;       /* Highlight color */
-    --bg-dark: #0a0a0a;           /* Dark background */
-    --bg-darker: #050505;         /* Darker background */
-    --bg-light: #1a1a1a;          /* Light background */
-    --text-primary: #ffffff;      /* Primary text */
-    --text-secondary: #b0b0b0;    /* Secondary text */
-    --text-muted: #666666;        /* Muted text */
-    --border-color: #333333;      /* Border color */
+    --primary-color: #00ff88;
+    --secondary-color: #0066ff;
+    --accent-color: #ff0066;
+    --bg-dark: #0a0a0a;
+    --bg-darker: #050505;
+    --bg-light: #1a1a1a;
+    --text-primary: #ffffff;
+    --text-secondary: #b0b0b0;
+    --text-muted: #666666;
+    --border-color: #333333;
 }
 ```
 
 ### Fonts
 
-The website uses Inter font from Google Fonts. To change fonts:
+To change fonts, update the Google Fonts link in `index.html`:
 
-1. Update the Google Fonts link in `index.html`:
 ```html
 <link href="https://fonts.googleapis.com/css2?family=YourFont:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 ```
 
-2. Update the font-family in `styles.css`:
+And update the font-family in `styles.css`:
+
 ```css
 body {
     font-family: 'YourFont', sans-serif;
 }
 ```
 
-## 📱 Responsive Design
-
-The website is fully responsive and includes:
-
-- Mobile-first design approach
-- Breakpoints for tablets and mobile devices
-- Touch-friendly navigation
-- Optimized layouts for different screen sizes
-
-## 🔧 Technical Features
+## Technical Features
 
 ### JavaScript Functionality
 
@@ -244,11 +237,11 @@ The website is fully responsive and includes:
 ### Performance Optimizations
 
 - Efficient CSS animations
-- Optimized images and assets
+- Optimized assets
 - Minimal JavaScript footprint
 - Fast loading times
 
-## 🚀 Deployment
+## Deployment
 
 ### GitHub Pages
 
@@ -270,7 +263,7 @@ The website is fully responsive and includes:
 2. Deploy automatically on every push
 3. Get a custom domain and SSL certificate
 
-## 📄 File Structure
+## File Structure
 
 ```
 portfolio/
@@ -283,7 +276,7 @@ portfolio/
     └── icons/
 ```
 
-## 🛠️ Browser Support
+## Browser Support
 
 - Chrome (latest)
 - Firefox (latest)
@@ -291,25 +284,12 @@ portfolio/
 - Edge (latest)
 - Mobile browsers
 
-## 📞 Support
+## About This Portfolio
 
-If you need help customizing your portfolio:
+This portfolio website demonstrates my software development capabilities through practical implementation. The clean, professional design showcases my ability to create accessible, modern web applications that deliver exceptional user experiences.
 
-1. Check the customization guide above
-2. Review the HTML structure for reference
-3. Modify CSS variables for styling changes
-4. Update JavaScript for functionality changes
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🤝 Contributing
-
-Feel free to submit issues and enhancement requests!
+My background in cybersecurity provides a unique perspective on secure coding practices and data protection, which I apply to all development projects. This portfolio serves as both a demonstration of my technical skills and a practical example of my development approach.
 
 ---
 
-**Built with ❤️ for cybersecurity professionals**
-
-*This portfolio template is designed to help you showcase your cybersecurity skills and experience in a professional, engaging way that appeals to potential employers.*
+**Built with clean code and modern design principles**
